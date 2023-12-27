@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-27T17:18:39.418Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="StV_e2KhVvffi2UfAiHe" version="22.1.15" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-12-27T17:29:42.066Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="iZExdbYD-Re-nG-eRPi0" version="22.1.15" type="github" pages="5">
   <diagram id="XefS_dQw1Aq6V2A0XlVZ" name="ERD">
     <mxGraphModel dx="1520" dy="421" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -645,10 +645,34 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RVzllsz8mx9tYe1k0Kcf" name="Page-5">
-    <mxGraphModel dx="670" dy="421" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="958" dy="351" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="RZNQkOZdSu5-XuwFkQMH-1" value="Mulai" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-162" y="127" width="124" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="AAc1d3EhUtF-7-p5Pt2Y-1" value="Buat Thread Group" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fontSize=16;labelPosition=center;align=center;" vertex="1" parent="1">
+          <mxGeometry x="5" y="130" width="156" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jBxt9pvvQfl9MX68FL0s-2" value="Input number of Threads (users)" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="204" y="132" width="174" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="jBxt9pvvQfl9MX68FL0s-3" value="Input ramp-up &lt;br&gt;period (seconds)" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="401" y="132" width="174" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="jBxt9pvvQfl9MX68FL0s-4" value="Buat HTTP Request" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fontSize=16;labelPosition=center;align=center;" vertex="1" parent="1">
+          <mxGeometry x="618" y="130" width="156" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jBxt9pvvQfl9MX68FL0s-5" value="Input protocol" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="609" y="255" width="174" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="jBxt9pvvQfl9MX68FL0s-6" value="Input server &lt;br&gt;name atau IP" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="388" y="258" width="174" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="jBxt9pvvQfl9MX68FL0s-7" value="Input port &lt;br&gt;number" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="184" y="258" width="174" height="66" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
